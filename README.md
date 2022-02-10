@@ -1,2 +1,2 @@
-# JsSiteTemplate
-site template for js projects
+# FizzBuzz
+
