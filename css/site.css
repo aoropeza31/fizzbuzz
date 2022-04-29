@@ -1,15 +1,24 @@
 :root{
-    --primary-color: #422aa2ac;
-    --secondary-color: #00c3efce;
-    --dark-color: #152e5c;
-    --white-color: #dfeff3;
+    --primary-color: #fe0077;
+    --secondary-color: #680357db;
+    --dark-color: #2f0505;
+    --white-color: #f3dfdf;
 }
-.odd{
- font-weight: 100;
-}
-.even{
+.fizz{
+    color: var(--primary-color);
     font-weight: bold;
-    font-size: large;
+}
+.buzz{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.fizzbuzz{
+    font-weight: bold;
+    background: linear-gradient( 217deg,
+        var(--primary-color),var(--secondary-color));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
 }
 
 .logoFont {
@@ -36,8 +45,8 @@ nav{
 }
 .text-gradient.text-primary {
     background-image: linear-gradient(
-10deg
-,#1b1979,#00c3ff);
+86deg
+,var(--primary-color),var(--secondary-color));
 }
 .text-gradient {
     background-clip: text;
@@ -86,7 +95,7 @@ nav{
     color: #fff;
 }
 .bg-gradient-primary{
-    background-image: linear-gradient( 310deg, #ca3e28,#ffaa00);
+    background-image: linear-gradient( 310deg, var(--primary-color),var(--secondary-color));
 }
 
 .btn {
